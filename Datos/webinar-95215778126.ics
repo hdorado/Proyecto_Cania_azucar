@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/New_York
+TZURL:http://tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200519T130744Z
+DTSTART;TZID=America/New_York:20200519T100000
+DTEND;TZID=America/New_York:20200519T110000
+SUMMARY:Using Analytics to Address the Impacts of COVID-19 on the Workpla
+ ce | Genetha Gray
+UID:20200519T130744Z-95215778126@fe80:0:0:0:473:16ff:fe35:8aa0eth0
+TZID:America/New_York
+DESCRIPTION:Únase desde una PC\, Mac\, iPad\, iPhone o dispositivo Androi
+ d: \n	Haga clic en este sitio web para unirse. https://zoom.us/w/9521577
+ 8126?tk=fS81J8OogcqcIJrTjEZ3r4mGeuG3VM8yD7Fk7Cu-Xm8.DQIAAAAWK015ThZNOHVP
+ ZXpjSFFocWdOak9nRmJBNXFRAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=c3ppRUlURzNiZld
+ uSkhvN3pPQmJBdz09&uuid=WN_lDmiILS7QuGimxGdlfwqkQ \n	Contraseña: 835326 \
+ n	Descripción: Over the past few years\, advances in technology have bee
+ n challenging many of the traditional concepts of how\, where\, and when
+  people work. To manage these changes\, companies have turned to the pra
+ ctice of people analytics\, using data to manage the workforce. This pra
+ ctice has only increased in importance and utility during the COVID-19 p
+ andemic. In this talk\, we will begin by giving a brief overview of the 
+ practice people analytics and how it has grown. We will then discuss how
+  companies continue to use analytics during this unprecedented time in h
+ istory to discover employee needs\, manage changing work environments\, 
+ and address employee engagement and well-being. Moreover\, we will expla
+ in how analytics can play a key role in planning for return to work and 
+ managing the long-term impacts of the pandemic.\n\nO únase por teléfono：
+ \n        Estados Unidos de América: +1 646 876 9923  or +1 669 900 6833
+   or +1 253 215 8782  or +1 301 715 8592  or +1 312 626 6799  or +1 346 
+ 248 7799 \n\n	ID de seminario web: 952 1577 8126\n	Números internacional
+ es disponibles: https://zoom.us/u/adoJs0vpGm\n\n
+LOCATION:https://zoom.us/w/95215778126?tk=fS81J8OogcqcIJrTjEZ3r4mGeuG3VM8
+ yD7Fk7Cu-Xm8.DQIAAAAWK015ThZNOHVPZXpjSFFocWdOak9nRmJBNXFRAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAA&pwd=c3ppRUlURzNiZlduSkhvN3pPQmJBdz09&uuid=WN_lDmiILS7QuGim
+ xGdlfwqkQ
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
